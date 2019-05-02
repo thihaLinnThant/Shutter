@@ -1,0 +1,272 @@
+body {
+	font-family: cabin, sens-serif;
+	letter-spacing: 0.02em;
+}
+
+/*head section*/
+.heading {
+	background: url("img/7.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.mainmenu {
+	padding: 40px;
+}
+.mainmenu > li > a {
+	color:#777;
+	opacity: 0.5;
+	transition: 0.3s ease-in-out;
+}
+.mainmenu > li > a:hover {	
+	color:#fff;
+	opacity: 1;
+	text-decoration: none;
+}
+.mainmenu > li > a:focus {
+	color:#fff;
+	opacity: 1;
+	text-decoration: none;
+}
+.hero {
+	margin-top: 150px;
+	margin-bottom: 250px;
+}
+.hero > h1{
+	font-family: 'Yesteryear', cursive;
+}
+.profile-img {
+	margin: -100px 0;
+}
+
+
+
+/*about section*/
+.about {
+	background:#fff;
+	padding: 120px 0;
+}
+
+
+/*photo section*/
+.photos {
+	background: #f7f7f7;
+}
+.imagemenu > ul {
+	height: 50px;
+}
+.imagemenu > ul > li {
+	padding: 10px 15px;
+	border:solid 2px;
+	border-color: rgba(0,0,0,0);
+	transition: 0.3s ease-in-out;
+}
+.imagemenu > ul > li:hover {
+	border-color: black;
+}
+.imagemenu > ul > li:hover a {
+	opacity:1;
+}
+.imagemenu > ul > li > a {
+	text-decoration: none;
+	font-weight: 600;
+	color:#111;
+	opacity: 0.5;
+}
+.imagemenu > ul > li > a:focus {
+	opacity:1;
+}
+.images {
+	display: flex;
+	list-style: none;
+	flex-wrap: wrap;
+	align-items: baseline;
+	justify-content: center;
+}
+.images > img {
+
+}
+.members {
+	background: url("img/testimonial-bg.jpg");
+	background-size: cover;
+	background-attachment: fixed;
+}
+.review-head {
+	margin: 40px 0;
+}
+.review-head > div {
+	display: inline-block;
+}
+.review-head > img {
+	margin-top: -40px;
+}
+.review-head > p {
+	margin: 10px 0;
+}
+
+/*counter section*/
+.counts {
+	margin:80px 0 30px 0;
+}
+
+
+/*pricing*/
+.pricing {
+	background: rgba(247, 247, 245, 1);
+	padding: 90px 0;
+}
+.price-box {
+	border: 1px solid #000;
+	padding: 20px;
+	transition: 1s ease-in-out;
+}
+.pricing-list > li{
+	overflow: hidden;
+	padding: 15px 0;
+}
+.pricing-btn {
+	color:#fff;
+	border: 1px solid #000;
+	background:#000;
+	padding:10px 30px;
+	font-size: 12px;
+	transition: 0.3s ease-in-out;
+}
+.pricing-btn > a{
+	text-decoration: none;
+	color:#fff;
+}
+.pricing-btn:hover{
+	background: rgba(0,0,0,0);
+}
+.pricing-btn:hover a{
+	color:#111;
+}
+.price-bg1 {
+	background:url("img/pricing-bg-1.jpg");
+}
+.price-bg2 {
+	background:url("img/pricing-bg-2.jpg");
+}
+.price-bg3 {
+	background:url("img/pricing-bg-3.jpg");
+}
+
+/*subscribe*/
+.subscribe {
+	padding: 120px 0;
+}
+.subscribe-content > div > h1 {
+	margin-bottom: 25px;
+}
+.subscribe-content > div > div {
+	margin-top: 40px;
+}
+.subscribe-btn > button {
+	color:#fff;
+	background: #000;
+}
+
+/*contact me*/
+.contact {
+	background:url("img/contact-bg.jpg");
+	background-attachment: fixed;
+	background-size: cover;
+	padding:90px;
+}
+.inputform > input,.inputform > textarea{
+	margin: 10px 0 ;
+	background:transparent;
+	border-bottom: 1px solid #000;
+}
+.contact-btn {
+	margin: 10px 0;
+	color:#fff;
+	border: 1px solid #000;
+	background:#000;
+	padding:10px 30px;
+	font-size: 12px;
+	transition: 0.3s ease-in-out;
+}
+.contact-btn > a{
+	text-decoration: none;
+	color:#fff;
+}
+.contact-btn:hover{
+	background: rgba(0,0,0,0);
+}
+.contact-btn:hover a{
+	color:#111;
+}
+
+
+/*footer*/
+.footer {
+	background:#000;
+	padding: 90px 0 0 0 ;
+}
+.footer-links, .footer-likns:hover {
+	color:#fff;
+	text-decoration: none;
+}
+.upperrow {
+	margin-bottom: 30px;
+}
+.lowerrow {
+	margin-top: 100px;
+	margin-bottom: 0px;
+}
+.icons {
+	margin: 10px;
+}
+
+
+/*general*/
+.colorwhite {
+	color:#fff;
+}
+.colorblack {
+	color:#000;
+}
+.colorgrey {
+	color:#777;
+}
+.fz70 {
+	font-size: 70px;
+}
+.fz40 {
+	font-size: 40px;
+}
+.fz14 {
+	font-size: 14px;
+}
+.fz24 {
+	font-size: 24px;
+}
+.fz20 {
+	font-size: 20px;
+}
+.fw300 {
+	font-weight: 300;
+}
+.fw800 {
+	font-weight: 800;
+}
+.fw500 {
+	font-weight: 500;
+}
+.fw700 {
+	font-weight: 700;
+}
+.hrwid150 {
+	width: 150px;
+}
+hr{
+	border: 1px solid #000;
+}
+h2 {
+	font-size: 24px;
+    font-weight: 400;
+    line-height: 1.4;
+    letter-spacing: -0.04em;
+    color: #111;
+}
